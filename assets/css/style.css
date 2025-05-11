@@ -59,13 +59,15 @@ header nav a:hover {
 .hero {
   position: relative;
   text-align: center;
-  overflow: hidden;
+  height: auto;
+  max-height: 80vh;
 }
 .hero-image {
   display: block;
   width: 100%;
-  max-height: 250px;
-  object-fit: cover;
+  height: auto;    
+  max-height: 80vh; 
+  object-fit: contain;
 }
 .hero-text {
   position: absolute;
