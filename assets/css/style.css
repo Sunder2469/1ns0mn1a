@@ -1,5 +1,3 @@
-/* assets/css/style.css */
-
 /* Base styles */
 body {
   margin: 0;
@@ -49,6 +47,14 @@ header nav a:hover {
   background-color: #005fa3;
 }
 
+/* Logo */
+.logo {
+  display: block;
+  margin: 1rem auto 0;
+  max-width: 100px;
+  height: auto;
+}
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -58,7 +64,8 @@ header nav a:hover {
 .hero-image {
   display: block;
   width: 100%;
-  height: auto;
+  max-height: 250px;
+  object-fit: cover;
 }
 .hero-text {
   position: absolute;
@@ -120,13 +127,6 @@ header nav a:hover {
 }
 .btn-telegram:hover {
   background-color: #006699;
-}
-#telegram iframe {
-  margin-top: 1rem;
-  border: none;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
 }
 
 /* Footer */
