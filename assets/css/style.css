@@ -57,7 +57,7 @@ header nav a:hover {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 900px;
 }
 .hero-text {
   position: absolute;
