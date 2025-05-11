@@ -1,5 +1,5 @@
 title: "1ns0mn1a"
 description: "Офіційний сайт клану в Raid Shadow Legends"
 baseurl: ""               # залишаємо пустим для github.io
-url: "https://1ns0mn1a.github.io"
+url: "https://1ns0mn1a.netlify.app/"
 theme: jekyll-theme-cayman
